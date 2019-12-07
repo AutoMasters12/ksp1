@@ -31,7 +31,7 @@ public class TestSuite1 extends BaseClass {
 		Thread.sleep(5000);
 		ListOfFlights.ListverifyListOfFlightsPage();
 	}
-	
+
 	@Test
 	public void test004() throws Exception {
 		ExcelUtils.loadTestData(getName());
@@ -40,6 +40,7 @@ public class TestSuite1 extends BaseClass {
 		Thread.sleep(5000);
 		ListOfFlights.ListverifyListOfFlightsPage();
 	}
+
 
 
 }
