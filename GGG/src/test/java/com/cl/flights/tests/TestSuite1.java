@@ -31,6 +31,15 @@ public class TestSuite1 extends BaseClass {
 		Thread.sleep(5000);
 		ListOfFlights.ListverifyListOfFlightsPage();
 	}
+	@Test
+	public void test003() throws Exception {
+		ExcelUtils.loadTestData(getName());
+		HomePage.verifyHomepage();
+		Flights.serachFlights();
+		Thread.sleep(5000);
+		ListOfFlights.ListverifyListOfFlightsPage();
+	}
+
 
 
 }
