@@ -33,7 +33,7 @@ public class TestSuite1 extends BaseClass {
 	}
 
 	@Test
-	public void test004() throws Exception {
+	public void test003() throws Exception {
 		ExcelUtils.loadTestData(getName());
 		HomePage.verifyHomepage();
 		Flights.serachFlights();
